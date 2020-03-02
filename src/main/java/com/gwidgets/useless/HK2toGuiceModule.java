@@ -1,4 +1,4 @@
-package com.gwidgets;
+package com.gwidgets.useless;
 
 import org.glassfish.hk2.api.Factory;
 import org.glassfish.hk2.utilities.binding.AbstractBinder;
