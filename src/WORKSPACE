@@ -1,0 +1,16 @@
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
+
+git_repository(
+    name = "io_bazel_rules_appengine",
+    remote = "https://github.com/bazelbuild/rules_appengine.git",
+    commit = "6b852caff1b399fc54af4493c4d7933a76992861",
+#    tag = "0.0.9",
+)
+
+# Java
+load(
+    "@io_bazel_rules_appengine//appengine:java_appengine.bzl",
+    "java_appengine_repositories",
+)
+
+java_appengine_repositories()

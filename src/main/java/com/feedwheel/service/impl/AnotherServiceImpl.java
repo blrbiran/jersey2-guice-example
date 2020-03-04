@@ -1,6 +1,6 @@
-package com.gwidgets.service.impl;
+package com.feedwheel.service.impl;
 
-import com.gwidgets.service.AnotherService;
+import com.feedwheel.service.AnotherService;
 
 public class AnotherServiceImpl implements AnotherService {
 	@Override

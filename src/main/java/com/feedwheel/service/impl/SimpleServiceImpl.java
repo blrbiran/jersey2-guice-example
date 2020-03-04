@@ -1,7 +1,7 @@
-package com.gwidgets.service.impl;
+package com.feedwheel.service.impl;
 
-import com.gwidgets.service.AnotherService;
-import com.gwidgets.service.SimpleService;
+import com.feedwheel.service.AnotherService;
+import com.feedwheel.service.SimpleService;
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
 

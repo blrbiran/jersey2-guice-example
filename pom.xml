@@ -7,7 +7,7 @@
 	<artifactId>jersey2</artifactId>
 	<packaging>war</packaging>
 	<version>0.2</version>
-	<name>jersey2-guice-example</name>
+	<name>jersey2-guice-bazel</name>
 
 	<build>
 		<plugins>
@@ -16,7 +16,7 @@
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.4.27.v20200227</version>
 				<configuration>
-					<war>${project.build.directory}/jersey2-guice-example.war</war>
+					<war>${project.build.directory}/jersey2-guice-bazel.war</war>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -31,32 +31,32 @@
 	</build>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.glassfish.jersey.containers</groupId>
-			<artifactId>jersey-container-servlet</artifactId>
-			<version>${jersey.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.glassfish.jersey.inject</groupId>
-			<artifactId>jersey-hk2</artifactId>
-			<version>${jersey.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.glassfish.hk2</groupId>
-			<artifactId>guice-bridge</artifactId>
-			<version>2.6.1</version>
-		</dependency>
-		<dependency>
-			<groupId>com.google.inject</groupId>
-			<artifactId>guice</artifactId>
-			<version>4.2.2</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.glassfish.jersey.containers</groupId>-->
+<!--			<artifactId>jersey-container-servlet</artifactId>-->
+<!--			<version>${jersey.version}</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>javax.servlet</groupId>-->
+<!--			<artifactId>javax.servlet-api</artifactId>-->
+<!--			<version>3.1.0</version>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.glassfish.jersey.inject</groupId>-->
+<!--			<artifactId>jersey-hk2</artifactId>-->
+<!--			<version>${jersey.version}</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.glassfish.hk2</groupId>-->
+<!--			<artifactId>guice-bridge</artifactId>-->
+<!--			<version>2.6.1</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>com.google.inject</groupId>-->
+<!--			<artifactId>guice</artifactId>-->
+<!--			<version>4.2.2</version>-->
+<!--		</dependency>-->
 	</dependencies>
 	<properties>
 		<jersey.version>2.30.1</jersey.version>

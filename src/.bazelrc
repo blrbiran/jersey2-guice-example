@@ -1,0 +1,4 @@
+# build --experimental_repository_cache=/Users/biran/.bazel/cache --java_toolchain=@io_bazel_rules_appengine//appengine:jdk8
+build --experimental_repository_cache=/Users/biran/.bazel/cache
+fetch --experimental_repository_cache=/Users/biran/.bazel/cache
+

@@ -1,4 +1,4 @@
-package com.gwidgets.service;
+package com.feedwheel.service;
 
 public interface SimpleService {
 	

@@ -1,4 +1,4 @@
-package com.gwidgets;
+package com.feedwheel.guiceconfig;
 
 import javax.inject.Inject;
 import javax.ws.rs.ApplicationPath;

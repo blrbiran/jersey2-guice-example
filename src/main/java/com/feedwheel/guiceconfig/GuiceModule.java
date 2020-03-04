@@ -1,10 +1,10 @@
-package com.gwidgets;
+package com.feedwheel.guiceconfig;
 
 import com.google.inject.AbstractModule;
-import com.gwidgets.service.AnotherService;
-import com.gwidgets.service.SimpleService;
-import com.gwidgets.service.impl.AnotherServiceImpl;
-import com.gwidgets.service.impl.SimpleServiceImpl;
+import com.feedwheel.service.AnotherService;
+import com.feedwheel.service.SimpleService;
+import com.feedwheel.service.impl.AnotherServiceImpl;
+import com.feedwheel.service.impl.SimpleServiceImpl;
 
 public class GuiceModule extends AbstractModule {
 	@Override
