@@ -123,8 +123,21 @@ java_import(
     jars = glob(["jersey-hk2-2.30.1.jar"]),
     visibility = ["//visibility:public"],
 )
+
+java_import(
+    name = "jersey_media_jaxb",
+    jars = glob(["jersey-media-jaxb-2.30.1.jar"]),
+    visibility = ["//visibility:public"],
+)
+
 java_import(
     name = "jersey_server",
     jars = glob(["jersey-server-2.30.1.jar"]),
+    visibility = ["//visibility:public"],
+)
+
+java_import(
+    name = "osgi_resource_locator",
+    jars = glob(["osgi-resource-locator-1.0.3.jar"]),
     visibility = ["//visibility:public"],
 )
